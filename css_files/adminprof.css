@@ -1,0 +1,93 @@
+
+body{
+    background: #ccc;
+}
+.main-color-bg{
+    background-color:#e74c3c !important ;
+    border-color: #c0392b !important;
+    color: #ffffff !important;
+}
+/* navbar */
+.navbar{
+    height: 70px;
+    font-size: 17px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    /* margin-bottom: 2px; */
+  }
+  .navbar ul{
+    margin: 8px 0 0 0;
+  }
+  
+  .side-nav{	
+  height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    padding-top: 60px;
+    overflow-x: hidden;
+    transition: 0.5s;  
+  }
+  
+  .side-nav a{
+  /* sd,sd, sd, left */
+  padding: 10px 10px 50px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ccc;
+    display: block;
+    transition: 0.3s;
+  }
+  .side-nav a:hover,.side-nav li.active a{
+  color: darkkhaki;
+  }
+  .side-nav .btn-close{
+  position: absolute;
+  color:red;
+  top: 0px;
+  right: 22px;
+  font-size: 40px;
+  margin-left: 50px;
+  }
+
+/* breadcrumb */
+.breadcrumb{
+    margin-top: 15px;
+    background: #221f1f;
+    color: #dfd3d3;
+}
+.breadcrumb .active{
+    color: #dfd3d3;
+}
+.dash-box{
+    text-align: center;
+}
+.modal-header, #h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+#header prof_name{
+    padding-bottom: 12px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+
+/* .btn{
+    
+    margin-left:210px ;
+   
+}
+@media(max-width: 760px){
+    .btn{
+        margin-left: 400px;
+    }
+} */
